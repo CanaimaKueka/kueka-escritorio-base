@@ -12,7 +12,6 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-escritorio-base/tree
 Package: canaima-escritorio-base
 Architecture: all
 Depends:	desktop-base (>= 6.0.5+canaima9),
-		lsb-desktop (>= 3.2-23.3canaima2),
 		xserver-xorg-core,
 		xserver-xorg-video-all,
 		xserver-xorg-input-all,
