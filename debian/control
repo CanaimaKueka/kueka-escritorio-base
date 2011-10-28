@@ -30,7 +30,8 @@ Depends:	desktop-base (>= 6.0.5+canaima9),
 		acpi-support,
 		hibernate,
 		menu,
-		gksu
+		${shlibs:Depends},
+		${misc:Depends}
 Pre-Depends: canaima-base (>= 3.1)
 Recommends: canaima-escritorio-gnome | canaima-escritorio-lxde | canaima-escritorio-xfce | canaima-escritorio-kde
 Description: Metapaquete de aplicaciones comunes a los escritorios en Canaima
