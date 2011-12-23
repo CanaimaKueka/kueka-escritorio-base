@@ -37,4 +37,4 @@ Suggests: canaima-escritorio-gnome | canaima-escritorio-lxde | canaima-escritori
 Description: Metapaquete de aplicaciones comunes a los escritorios en Canaima
  Este metapaquete agrupa las aplicaciones que son comunes a todos los
  escritorios soportados por la Metadistribucion Canaima GNU/Linux.
-
+ .
