@@ -1,3 +1,10 @@
+canaima-escritorio-base (3.1-5) stable; urgency=low
+
+  * [3c7e022] * Removiendo scripts del mantenedor innecesarios
+  * [6758a78] Corrigiendo detalles
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 11:37:11 -0430
+
 canaima-escritorio-base (3.1-4) stable; urgency=low
 
   * [c17302b] Agregando xorg y xinit a las dependencias.
