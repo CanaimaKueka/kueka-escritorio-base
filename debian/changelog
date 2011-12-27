@@ -1,3 +1,9 @@
+canaima-escritorio-base (3.1-7) stable; urgency=low
+
+  * [e15a178] Ajustando dependencias
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 18:05:50 -0430
+
 canaima-escritorio-base (3.1-6) stable; urgency=low
 
   * [f19ecd4] Ajustando versiones de las dependencias
