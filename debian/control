@@ -1,17 +1,16 @@
 Source: canaima-escritorio-base
 Section: misc
 Priority: optional
-Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
-Uploaders: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
+Maintainer: Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
 Homepage: http://canaima.softwarelibre.gob.ve/
 Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-escritorio-base.git
 Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-escritorio-base/trees/master
 
 Package: canaima-escritorio-base
 Architecture: all
-Depends:	desktop-base (>= 6.0.6-1canaima10),
+Depends:	desktop-base (>= 7.0.3Canaima1),
 		xorg,
 		xinit,
 		xserver-xorg-core,
@@ -19,8 +18,7 @@ Depends:	desktop-base (>= 6.0.6-1canaima10),
 		xserver-xorg-input-all,
 		cups,
 		openssh-client,
-		alsa-utils,
-		alsa-base,
+		pulseaudio,
 		dosfstools,
 		ntfsprogs,
 		mtools,
@@ -34,7 +32,7 @@ Depends:	desktop-base (>= 6.0.6-1canaima10),
 		hibernate,
 		${shlibs:Depends},
 		${misc:Depends}
-Pre-Depends: canaima-base (>= 3.1)
+Pre-Depends: canaima-base (>= 4.0)
 Suggests: canaima-escritorio-gnome | canaima-escritorio-lxde | canaima-escritorio-xfce | canaima-escritorio-kde
 Description: Metapaquete de aplicaciones comunes a los escritorios en Canaima
  Este metapaquete agrupa las aplicaciones que son comunes a todos los
