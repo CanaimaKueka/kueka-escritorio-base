@@ -1,10 +1,8 @@
-canaima-escritorio-base (4.0~1.gbp5d5662) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @5d566232db1833d532ef57b4459ff20f09ac1b58 **
+canaima-escritorio-base (4.0) stable; urgency=low
 
   * [5d56623] Agregando soporte para compresión "xz". Actualizando dependencias. Cambiando formato del paquete fuente a nativo.
 
- -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Tue, 23 Apr 2013 09:31:37 -0430
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Tue, 23 Apr 2013 09:33:04 -0430
 
 canaima-escritorio-base (3.1-7) stable; urgency=low
 
