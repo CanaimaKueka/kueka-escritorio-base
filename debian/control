@@ -17,6 +17,7 @@ Depends:	desktop-base (>= 7.0.3Canaima1),
 		xserver-xorg-video-all,
 		xserver-xorg-input-all,
 		cups,
+		cups-pk-helper (>= 0.2),
 		openssh-client,
 		pulseaudio,
 		dosfstools,
@@ -30,7 +31,6 @@ Depends:	desktop-base (>= 7.0.3Canaima1),
 		acpi,
 		acpi-support,
 		hibernate,
-		${shlibs:Depends},
 		${misc:Depends}
 Pre-Depends: canaima-base (>= 4.0)
 Suggests: canaima-escritorio-gnome | canaima-escritorio-lxde | canaima-escritorio-xfce | canaima-escritorio-kde
