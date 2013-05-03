@@ -1,3 +1,9 @@
+canaima-escritorio-base (4.0+1) stable; urgency=low
+
+  * [d4cb5e5] Ajustando las dependencias para la primera versión alpha de Canaima 4.0.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 03 May 2013 15:22:18 -0430
+
 canaima-escritorio-base (4.0) stable; urgency=low
 
   * [5d56623] Agregando soporte para compresión "xz". Actualizando dependencias. Cambiando formato del paquete fuente a nativo.
