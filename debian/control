@@ -11,6 +11,7 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-escritorio-base/tree
 Package: canaima-escritorio-base
 Architecture: all
 Depends:	desktop-base (>= 7.0.3Canaima1),
+		canaima-base (>= 4.0),
 		xorg,
 		xinit,
 		xserver-xorg-core,
@@ -31,8 +32,8 @@ Depends:	desktop-base (>= 7.0.3Canaima1),
 		acpi,
 		acpi-support,
 		hibernate,
+		${shlibs:Depends},
 		${misc:Depends}
-Pre-Depends: canaima-base (>= 4.0)
 Suggests: canaima-escritorio-gnome | canaima-escritorio-lxde | canaima-escritorio-xfce | canaima-escritorio-kde
 Description: Metapaquete de aplicaciones comunes a los escritorios en Canaima
  Este metapaquete agrupa las aplicaciones que son comunes a todos los
