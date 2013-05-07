@@ -1,3 +1,13 @@
+canaima-escritorio-base (4.0+2) stable; urgency=low
+
+  [ Erick Birbe ]
+  * [67042fd] Eliminando opción de compresión en xz
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [6b7ae6b] Ajustando dependencias.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Tue, 07 May 2013 02:01:35 -0430
+
 canaima-escritorio-base (4.0+1) stable; urgency=low
 
   * [d4cb5e5] Ajustando las dependencias para la primera versión alpha de Canaima 4.0.
